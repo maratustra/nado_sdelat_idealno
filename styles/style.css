@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   height: 100%;
@@ -35,6 +40,7 @@ body::before {
   text-transform: uppercase;
   color: #000;
   text-align: center;
+  padding-top: 61px;
   max-width: 739px;
   z-index: 2;
 }
@@ -53,12 +59,12 @@ body::before {
   font-size: 35px;
   font-weight: 400;
   line-height: 35px;
-  letter-spacing: 0px;
+  letter-spacing: -0.1px;
   padding: 36px 44px;
   max-width: 746px;
   position: absolute;
-  top: 197px;
-  right: 271px;
+  top: 182px;
+  right: 23px;
   background-color: #fff;
   border: 2px solid #000;
   border-radius: 20px;
